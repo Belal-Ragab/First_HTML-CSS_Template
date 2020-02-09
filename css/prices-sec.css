@@ -1,0 +1,51 @@
+.prices-item {
+  padding: 40px;
+}
+
+.prices-title {
+  color: var(--pColor);
+  font-size: 17px;
+  transition: .3s color;
+}
+
+.prices-circle {
+  width: 140px;
+  height: 140px;
+  border: 2px solid var(--mainColor);
+  margin: 25px auto;
+  padding: 30px 0;
+  transition: .3s color;
+}
+
+.prices-dollar {
+  font-size: 45px;
+}
+
+.prices-month {
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.prices-specs li {
+  color: var(--pColor);
+}
+
+.prices-btn {
+  width: 180px;
+  background: none;
+  border: 2px solid var(--mainColor);
+  border-radius: 3px;
+  color: var(--mainColor);
+  padding:12px;
+  font-size: 17px;
+  margin: 10px 0 ;
+  cursor: pointer;
+}
+
+.prices-item:hover .prices-title {
+  color: var(--mainColor);
+}
+
+.prices-item:hover .prices-circle {
+  color: var(--whiteColor);
+}

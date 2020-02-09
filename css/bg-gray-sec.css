@@ -1,0 +1,36 @@
+.bg-gray {
+  padding: 65px  0;
+  border-top: 1px solid var(--borderColor);
+  border-bottom: 1px solid var(--borderColor);
+  margin-top: 81px;
+}
+
+.bg-gray-title {
+  width: 60%;
+  text-align: left;
+  font-size: 36px;
+  color: #10161a;
+}
+
+.bg-gray-path {
+  width: 40%;
+  text-align: right;
+  margin-top: 13px;
+  font-size: 17px;
+}
+
+.bg-gray-path-desc {
+  color: var(--mainColor);
+}
+
+.bg-gray-path-desc::after {
+  content: " /";
+}
+
+.bg-gray-path-desc.last::after {
+  content: "";
+}
+
+.bg-gray-path-desc.last {
+  color: var(--pColor);
+}

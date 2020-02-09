@@ -1,0 +1,23 @@
+.about-item {
+  padding: 40px 20px;
+}
+
+.about-item .icon {
+  color: var(--mainColor);
+}
+
+.about-item-title {
+  transition: color 0.5s;
+}
+
+.about-item:hover .about-item-title{
+  color: var(--whiteColor);
+}
+
+.about-item-desc {
+  color: var(--pColor);
+}
+
+.about-item-link {
+  color: var(--mainColor);
+}

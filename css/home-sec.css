@@ -1,0 +1,23 @@
+.home {
+  height: 100vh;
+  background: url('../images/background/background1.webp') center;
+}
+
+.home-content {
+  width: 65%;           /*because of it becomes inline-block*/
+}
+
+.home-title {
+  color: var(--whiteColor);
+  font-size: 3.5rem;
+}
+
+.home-desc {
+  color: var(--whiteColor);
+  margin: 27px 0;
+  letter-spacing: 2px;
+}
+
+.home .btn-white {
+  margin-right: 10px;
+}

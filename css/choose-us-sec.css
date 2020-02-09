@@ -1,0 +1,45 @@
+.choose-us-item .sec-header {
+  text-align: left;
+}
+
+.choose-us-item .sec-header .sec-line {
+  margin: 20px 0 60px 0;
+}
+
+
+.choose-us-desc {
+  color: var(--pColor);
+}
+
+.choose-us-options li {
+  color: var(--pColor);
+}
+
+.choose-us-icon {
+  color: var(--mainColor);
+  border: 1px solid var(--mainColor);
+  width: 30px;
+  height: 30px;
+  padding: 6px;
+  margin-right: 5px;
+}
+
+.choose-us-item .image-container {
+  height: 430px;
+  padding-left: 25px;
+}
+
+.choose-us-bullets {
+  background: var(--pColor);
+  width: 15px;
+  height: 15px;
+  margin: 15px 15px 0 0;
+}
+
+.choose-us-bullets.active {
+  background: var(--mainColor);
+}
+
+.choose-us-bullets:hover {
+  background: var(--mainColor);
+}

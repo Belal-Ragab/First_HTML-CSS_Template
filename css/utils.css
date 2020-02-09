@@ -1,0 +1,300 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  /*(To make the [padding&border] included in the [width&height])*/
+}
+
+body {
+  font-family: 'Varela Round', sans-serif;
+}
+
+:root {
+  --mainColor: #6195FF;
+  --whiteColor: #fff;
+  --borderColor: #eee;
+  --sec-bgColor: #fafafa;
+  --itemColor: #f4f4f4;
+  --pColor: #868F9B;
+  --formColor: #354052;
+  --effectColor: #10161A;
+  --footer-bgColor: #1c1d21;
+}
+
+.container {
+  width: 87%;
+  margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: both;
+}
+
+.mrgn {
+  margin: 0 3%;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.float-left {
+  float: left;
+}
+
+.centered {
+  text-align: center;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.block {
+  display: block;
+}
+
+.bg-img {
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.line-height {
+  line-height: 1.6;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.half-width {
+  width: 50%;
+}
+
+.qurtr-width {
+  width: 25%;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.b-radius {
+  border-radius: 50%;
+}
+
+.mg-b-30 {
+  margin-bottom: 30px;
+}
+
+.mg-b-25 {
+  margin-bottom: 25px;
+}
+
+.mg-b-2 {
+  margin-bottom: 2px;
+}
+
+.mg-b-5 {
+  margin-bottom: 5px;
+}
+
+.mg-b-20 {
+  margin-bottom: 20px;
+}
+
+.mg-b-17 {
+  margin-bottom: 17px;
+}
+
+.mg-b-15 {
+  margin-bottom: 15px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;    /*because of it becomes inline-block*/
+  height: 100%;    /*because of it becomes inline-block*/
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+button {
+  font-family: inherit;
+}
+
+.btn {
+  min-width: 160px;
+  padding: 15px 0;
+  border-radius: 4px;
+  border: 0;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+ .btn-white {
+  background: var(--whiteColor);
+}
+
+.btn-blue {
+  background: var(--mainColor);
+  color: var(--whiteColor);
+}
+
+.hover-opacity {
+  transition: .2s opacity;
+}
+
+.hover-opacity:hover {
+  opacity: 0.8;
+}
+
+.pdng-y {
+  padding: 125px 0;
+}
+
+.blg-pdng-y {
+  padding-top: 30px;
+}
+
+.sec-header {
+  text-align: center;
+}
+
+.sec-header .sec-title {
+  font-size: 35px;
+  text-transform: capitalize;
+}
+
+.sec-header .sec-line {
+  display: block;
+  background: var(--mainColor);
+  height: 4px;
+  width: 50px;
+  margin: 10px auto 70px ;
+}
+
+.ltr-effect, .ttb-effect {
+  position: relative;
+}
+
+.ltr-effect::after, .ttb-effect::after {
+  content: "";
+  position: absolute;
+  background: var(--effectColor);
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.ltr-effect::after {
+  height: 100%;  /* You can use (bottom:0 & right:0) instesd also */
+  width: 0;
+  transition: .3s width
+}
+
+.ltr-effect:hover::after {
+  width: 100%;
+}
+
+.ttb-effect::after {
+  width: 100%;
+  height: 0;
+  transition: .3s height
+}
+
+.ttb-effect:hover::after {
+  height: 100%;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.hero {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+.float-item {
+  width: 31.33%;
+  float: left;
+}
+
+.border {
+  border: 1px solid var(--borderColor);
+}
+
+.blue-border {
+  border: 1px solid var(--mainColor);
+}
+
+.sec-bg {
+  background: var(--sec-bgColor);
+}
+
+input, textarea {
+  background: var(--itemColor);
+  border: none;
+  border-bottom: 2px solid var(--borderColor);
+  color: var(--formColor);
+  opacity: 0.5;
+  font-size: 17px;
+  transition: .5s border-color, .5s opacity;
+}
+
+input {
+  height: 40px;
+  padding: 0 10px;
+
+}
+
+textarea {
+  min-height: 100px;
+  resize: vertical;
+  padding: 10px;
+}
+
+input:focus, textarea:focus {
+  border-color: var(--mainColor);
+  opacity: 1;
+}
+
+

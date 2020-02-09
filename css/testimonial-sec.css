@@ -1,0 +1,34 @@
+.testimonial {
+  background:url('../images/background/background3.webp') center;
+  height: 400px;       /* You should give it height to solve position proplrm */
+}
+
+.testimonial-content {
+  padding: 100px 0;
+}
+
+.testimonial-item-header{
+  padding: 10px 0 40px 100px;
+}
+
+.testimonial-item-header img {
+  left: 10px;
+  top: 10px;
+}
+
+.testimonial-item-header h3 {
+  color: var(--whiteColor);
+  font-size: 25px;
+  margin: 5px 0;
+}
+
+.testimonial-item-header span {
+  font-size: 14px;
+  color: var(--mainColor);
+}
+
+.testimonial-item-desc  {
+  color: var(--whiteColor);
+  padding: 0 15px;
+  width: 97%;
+}

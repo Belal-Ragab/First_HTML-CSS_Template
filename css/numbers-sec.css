@@ -1,0 +1,19 @@
+.numbers {
+  background: url('../images/background/background2.webp')  center ;
+  height: 280px;          /* You should give it height to solve position proplrm */
+}
+
+.numbers-icon {
+  color: var(--mainColor);
+  margin: 70px 0 25px 0;
+}
+
+.numbers-counter {
+  color: var(--whiteColor);
+  font-size: 35px;
+}
+
+.numbers-desc {
+  color: var(--whiteColor);
+  font-size: 17px;
+}

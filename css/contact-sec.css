@@ -1,0 +1,35 @@
+.contact-icon {
+  color: var(--mainColor);
+}
+
+.contact-title {
+  margin: 15px 0;
+}
+
+.contact-desc {
+  color: var(--pColor);
+}
+
+.contact-form {
+  width: 65%;
+  margin: 50px auto 20px;
+}
+
+.contact-form input {
+  width: 48.5%;
+}
+
+.contact-form input[name=email] {
+  margin-left: 2%;
+}
+
+.contact-form input[name=subject] {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.contact .btn {
+  min-width: 190px;
+  margin: auto;
+  margin-top: 20px;
+}

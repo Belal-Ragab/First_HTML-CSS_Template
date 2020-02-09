@@ -1,0 +1,30 @@
+.blg-tags {
+  margin:  40px  0;
+}
+
+.blg-tag-item {
+  display: inline-block;
+  margin-right: 2px;
+}
+
+.blg-tag-item a {
+  display: block;
+  padding: 10px;
+  background: #f4f4f4;
+  color: #10161a;
+  font-size: 15px;
+}
+
+.blg-tag-item i {
+  color: #6195FF;
+  padding-right: 4px;
+}
+
+.blg-tag-item a:hover {
+  background:  #6195FF;
+  color: #fff;
+}
+
+.blg-tag-item a:hover i {
+  color: #fff;
+}

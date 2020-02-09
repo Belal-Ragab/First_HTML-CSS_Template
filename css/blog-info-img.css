@@ -1,0 +1,26 @@
+.blg-image {
+  height: 475px;
+}
+
+.blg-info-image {
+  padding-top: 15px;
+}
+
+.blg-info-image li {
+  margin-right: 15px ;
+}
+
+.blg-info-image li i {
+  color: var(--mainColor);
+}
+
+.blg-info-title {
+  margin: 20px  0;
+  font-size: 21px;
+  color: #10161a;;
+}
+
+.blg-info-desc {
+  color: var(--pColor);
+  font-size: 15px;
+}

@@ -1,0 +1,40 @@
+.blg-post {
+  padding: 20px;
+}
+
+.blg-post-img {
+  width: 25%;
+  height: 160px;
+}
+
+.blg-post-content {
+  width: 75%;
+  padding:0 22px;
+}
+
+.blg-post-title {
+  font-size: 22px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+  margin-bottom: 25px;
+}
+
+.blg-post-desc {
+  color: var(--pColor);
+}
+
+.blg-post-socialmedia {
+  right: 20px;
+  top: 20px;
+}
+
+.socialmedia-icon a {
+  display: block;
+  background: #6195FF;
+  color: #fff;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  margin-right: 5px;
+}

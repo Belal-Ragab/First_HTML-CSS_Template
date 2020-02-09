@@ -1,0 +1,27 @@
+.post-item {
+  margin-bottom: 40px;
+}
+
+.post-image img {
+  width: 35%;
+  height: 65px;
+  margin-right: 10px;
+}
+
+.post-title {
+  color: #354052; 
+  display: inline-block;
+  margin-bottom: 7px; 
+}
+
+.post-image a:hover .post-title{
+  color: var(--mainColor);
+}
+
+.post-image a:hover {
+  opacity: .9;
+} 
+
+.post-date {
+  color: var(--mainColor);
+}

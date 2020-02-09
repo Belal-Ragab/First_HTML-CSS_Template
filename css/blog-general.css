@@ -1,0 +1,29 @@
+.blg-main {
+  width: 75%;
+  padding: 0 15px;
+}
+
+.blg-widgets {
+  width: 25%;
+  padding: 0 10px;
+}
+
+.blg .sec-header {
+  text-align: left;
+}
+
+.blg .sec-title {
+  font-size: 23px;
+  text-transform: uppercase;
+}
+
+ .blg-main .sec-title {
+  text-transform: none;
+}
+
+.blg .sec-header .sec-line {
+  margin: 20px  0   ;
+}
+
+
+

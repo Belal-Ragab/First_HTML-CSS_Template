@@ -1,0 +1,22 @@
+.reply-form {
+  margin: 25px 0;
+}
+
+.reply-form input {
+  width:47%;
+  display: inline-block; 
+}
+
+.reply-form input[name=email] {
+  margin-left: 2%;
+}
+
+.reply-form textarea {
+  margin-top: 20px;
+}
+
+.btn.reply {
+  min-width: 130px;
+}
+
+

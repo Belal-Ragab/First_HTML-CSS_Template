@@ -1,0 +1,15 @@
+.blog-header {
+  z-index: 999;
+  background: #fff;
+  top: 0;
+  left: 0;
+}
+
+.blog-header .navbar > li > a {
+  color: inherit;
+  transition: .5s color;
+}
+
+.blog-header .navbar > li > a:hover {
+  color: var(--mainColor);
+}

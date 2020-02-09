@@ -1,0 +1,12 @@
+.tag-item a {
+  display: inline-block;
+  background: #f4f4f4;
+  color: #10161a;
+  margin: 5px 0 5px;
+  padding: 6px 13px;
+  font-size: 14px;
+}
+
+.tag-item a:hover {
+  background: var(--mainColor);
+  color: #fff;

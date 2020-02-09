@@ -1,0 +1,52 @@
+.blg-com {
+  padding: 20px 20px 30px;
+}
+
+.com-img {
+  width: 10%;
+  height: 70px;
+}
+
+.com-content {
+  width: 90%;
+  padding:0 15px;
+}
+
+.com-time {
+  margin-left: 30px;
+  color: #868f9b;
+  font-size: 12px;
+}
+
+.com-desc {
+  color: var(--pColor);
+  margin: 5px  0;
+}
+
+.com-reply {
+  right: 10px;;
+  top: 0;
+  font-size: 13px;
+  color: var(--mainColor)
+}
+
+.com-reply i {
+  margin-left: 4px;
+}
+
+.inside-com {
+  margin: 10px 0 0;
+}
+
+.inside-com .com-title {
+  color: var(--mainColor);
+}
+
+.last .com-content {
+  width: 100%;
+}
+
+.blg-com.last .com-reply {
+  right: 25px;
+  top: 20px;
+}

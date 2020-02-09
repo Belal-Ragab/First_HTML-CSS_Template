@@ -1,0 +1,19 @@
+.cat-content li {
+  border-top: 1px solid #eee;
+  padding: 6px;
+}
+
+.cat-content .cat-dep {
+  color: #354052;
+  width: 80%;
+}
+
+.cat-content li a:hover .cat-dep {
+  color: var(--mainColor);
+}
+
+.cat-content .cat-num {
+  color: var(--mainColor);
+  width: 20%;
+  text-align: right;
+}

@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <mtea name="description" content="This is a first template HTML & CSS" />
+  <meta name="keywords" content="HTML, CSS, First, Template" />
+  <title>First HTML CSS Template</title>
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap"rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700,900&display=swap" rel="stylesheet">  
+  <!-- My CSS Files -->
+  <link rel="stylesheet" href="css/font-awesome.min.css" /> <!-- Font-awesome.css file -->
+  <link rel="stylesheet" href="css/utils.css" />            <!-- Common styles  -->
+  <link rel="stylesheet" href="css/header-sec.css" />       <!-- Header Srction  -->
+  <link rel="stylesheet" href="css/home-sec.css" />         <!-- Home Srction  -->
+  <link rel="stylesheet" href="css/about-sec.css" />        <!-- About Srction  -->
+  <link rel="stylesheet" href="css/portfolio-sec.css" />    <!-- Portfolio Srction  -->
+  <link rel="stylesheet" href="css/services-sec.css" />     <!-- Services Srction  -->
+  <link rel="stylesheet" href="css/choose-us-sec.css" />    <!-- choose us Srction  -->
+  <link rel="stylesheet" href="css/numbers-sec.css" />      <!-- Numbers Srction  -->
+  <link rel="stylesheet" href="css/prices-sec.css" />       <!-- Prices Srction  -->
+  <link rel="stylesheet" href="css/testimonial-sec.css" />  <!-- Testimonila Srction  -->
+  <link rel="stylesheet" href="css/team-sec.css" />         <!-- Team Srction  -->
+  <link rel="stylesheet" href="css/blog-sec.css" />         <!-- Blog Srction  -->
+  <link rel="stylesheet" href="css/contact-sec.css" />      <!-- Contact Srction  -->
+  <link rel="stylesheet" href="css/footer-sec.css" />       <!-- Footer Srction  -->
+</head>
+<body>
+
+<!-- header Section -->
+  <div class="header fixed full-width">
+    <div class="container">
+      <div class="header-content">
+        <div class="logo float-left">
+          <img src="images/logo-alt.webp" alt="Logo Image" draggable="false" />
+        </div>
+        <ul class="navbar float-left">
+          <li class="inline-block"><a class="active block" href="#">Home</a></li>
+          <li class="inline-block"><a class="block" href="#">About</a></li>
+          <li class="inline-block"><a class="block" href="#">Portfolio</a></li>
+          <li class="inline-block"><a class="block" href="#">Services</a></li>
+          <li class="inline-block"><a class="block" href="#">Prices</a></li>
+          <li class="inline-block"><a class="block" href="#">Team</a></li>
+          <li class="inline-block dropdown relative">
+            <a class="block" href="blog.html">Blog</a>
+            <ul class="dropdown-menu absolute hidden">
+              <li><a class="block" href="blog.html">blog post</a></li>
+            </ul>
+          </li>
+          <li class="inline-block"><a class="block" href="#">Contact</a></li>
+        </ul> 
+        <div class="clear"></div> <!-- To solve float problem -->
+      </div>
+    </div> 
+  </div>
+
+<!-- Home Section  -->
+  <div class="home relative bg-img">
+    <div class="overlay">
+      <div class="home-content hero">
+        <h1 class="home-title uppercase">we are creative agency</h1>
+        <p class="home-desc line-height">
+          Morbi mattis felis at nunc. Duis viverra diam non justo. In nisl. Nullam sit amet magna in magna gravida vehicula. Mauris tincidunt sem sed arcu. Nunc posuere.
+        </p>
+        <button class="btn btn-white hover-opacity">Get Started!</button>
+        <button class="btn btn-blue hover-opacity">Learn More</button>
+      </div>
+    </div>
+  </div>
+
+<!-- About Section -->
+<div class="about pdng-y">
+  <!-- Section Header (Title & line) -->
+  <div class="sec-header">
+    <h2 class="sec-title">welcome to website</h2>
+    <span class="sec-line"></span>
+  </div>
+
+  <div class="container">
+    <div class="about-content overflow-hidden">
+
+      <div class="about-item ltr-effect float-item border centered">
+        <i class="icon fa fa-cogs fa-2x mg-b-30"> </i>
+        <h2 class="about-item-title capitalize mg-b-30">fully customizible</h2>
+        <p class="about-item-desc line-height full-width mg-b-25">
+          Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.
+        </p>
+        <a href="#" class="about-item-link capitalize hover-opacity">read more</a>
+      </div>
+
+      <div class="about-item mrgn ltr-effect float-item border centered">
+        <i class="icon fa fa-magic fa-2x mg-b-30"> </i>
+        <h2 class="about-item-title capitalize mg-b-30">awesome features</h2>
+        <p class="about-item-desc line-height full-width mg-b-25">
+          Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.
+        </p>
+        <a href="#" class="about-item-link capitalize hover-opacity">read more</a>
+      </div>
+
+      <div class="about-item ltr-effect float-item border centered">
+        <i class="icon fa fa-mobile fa-2x mg-b-30"> </i>
+        <h2 class="about-item-title capitalize mg-b-30">fully responsive</h2>
+        <p class="about-item-desc line-height full-width mg-b-25">
+          Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.
+        </p>
+        <a href="#" class="about-item-link capitalize hover-opacity">read more</a>
+      </div>
+
+  </div>
+  </div>
+</div>
+ 
+<!-- Portfolio Section -->
+<div class="portfolio pdng-y sec-bg border">
+
+  <!-- Section Header (Title & line) -->
+  <div class="sec-header">
+    <h2 class="sec-title">featured works</h2>
+    <span class="sec-line"></span>
+  </div>
+
+  <div class="container">
+    <div class="portfolio-content overflow-hidden">
+
+      <div class="portfolio-item relative float-left mg-b-2">
+        <img src="images/work/work1.webp" alt="portfolio image" class="full-width full-height" />
+        <div class="portfolio-layer overlay hidden">
+          <div class="portfolio-layer-content hero">
+            <span class="portfolio-layer-title relative block uppercase  mg-b-5">category</span>
+            <h3 class="portfolio-layer-desc relative mg-b-20">Lorem ipsum dolor</h3>
+            <a href="#"><i class="fa fa-edit fa-lg portfolio-layer-icon relative"></i></a>
+            <a href="#"><i class="fa fa-search fa-lg portfolio-layer-icon relative"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio-item relative float-left mg-b-2 mrgn">
+        <img src="images/work/work2.webp" alt="portfolio image" class="full-width full-height" />
+        <div class="portfolio-layer overlay hidden">
+          <div class="portfolio-layer-content hero">
+            <span class="portfolio-layer-title relative block uppercase  mg-b-5">category</span>
+            <h3 class="portfolio-layer-desc relative mg-b-20">Lorem ipsum dolor</h3>
+            <a href="#"><i class="fa fa-edit fa-lg portfolio-layer-icon relative"></i></a>
+            <a href="#"><i class="fa fa-search fa-lg portfolio-layer-icon relative"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio-item float-left relative  mg-b-2 ">
+        <img src="images/work/work3.webp" alt="portfolio image" class="full-width full-height" />
+        <div class="portfolio-layer overlay hidden">
+          <div class="portfolio-layer-content hero">
+            <span class="portfolio-layer-title relative block uppercase  mg-b-5">category</span>
+            <h3 class="portfolio-layer-desc relative mg-b-20">Lorem ipsum dolor</h3>
+            <a href="#"><i class="fa fa-edit fa-lg portfolio-layer-icon relative"></i></a>
+            <a href="#"><i class="fa fa-search fa-lg portfolio-layer-icon relative"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio-item float-left relative mg-b-2">
+        <img src="images/work/work4.webp" alt="portfolio image" class="full-width full-height"/>
+        <div class="portfolio-layer overlay hidden">
+          <div class="portfolio-layer-content hero">
+            <span class="portfolio-layer-title relative block uppercase  mg-b-5">category</span>
+            <h3 class="portfolio-layer-desc relative mg-b-20">Lorem ipsum dolor</h3>
+            <a href="#"><i class="fa fa-edit fa-lg portfolio-layer-icon relative"></i></a>
+            <a href="#"><i class="fa fa-search fa-lg portfolio-layer-icon relative"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio-item float-left  mrgn relative mg-b-2">
+        <img src="images/work/work5.webp" alt="portfolio image" class="full-width full-height"/>
+        <div class="portfolio-layer overlay hidden">
+          <div class="portfolio-layer-content hero">
+            <span class="portfolio-layer-title relative block uppercase  mg-b-5">category</span>
+            <h3 class="portfolio-layer-desc relative mg-b-20">Lorem ipsum dolor</h3>
+            <a href="#"><i class="fa fa-edit fa-lg portfolio-layer-icon relative"></i></a>
+            <a href="#"><i class="fa fa-search fa-lg portfolio-layer-icon relative"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio-item float-left relative mg-b-2">
+        <img src="images/work/work6.webp" alt="portfolio image" class="full-width full-height"/>
+        <div class="portfolio-layer overlay hidden">
+          <div class="portfolio-layer-content hero">
+            <span class="portfolio-layer-title relative block uppercase  mg-b-5">category</span>
+            <h3 class="portfolio-layer-desc relative mg-b-20">Lorem ipsum dolor</h3>
+            <a href="#"><i class="fa fa-edit portfolio-layer-icon relative"></i></a>
+            <a href="#"><i class="fa fa-search portfolio-layer-icon relative"></i></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    
+  </div>
+</div>
+
+<!-- Services Section -->
+<div class="services pdng-y">
+  
+  <!-- Section Header (Title & line) -->
+  <div class="sec-header">
+    <h2 class="sec-title">what we offer</h2>
+    <span class="sec-line"></span>
+  </div>
+
+  <div class="container">
+    <div class="services-content overflow-hidden">
+
+      <div class="services-item ltr-effect float-item border mg-b-30">
+        <i class="fa fa-diamond fa-2x services-icon absolute"></i>
+        <h2 class="services-title capitalize mg-b-30">app development</h2>
+        <p class="services-desc line-height">
+          Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.
+        </p>
+      </div>
+
+      <div class="services-item mrgn ltr-effect float-item border mg-b-30">
+        <i class="fa fa-rocket fa-2x services-icon absolute"></i>
+        <h2 class="services-title capitalize mg-b-30">graphic design</h2>
+        <p class="services-desc line-height">
+          Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.
+        </p>
+      </div>
+
+      <div class="services-item ltr-effect float-item border mg-b-30">
+        <i class="fa fa-cogs fa-2x services-icon absolute"></i>
+        <h2 class="services-title capitalize mg-b-30">creative idea</h2>
+        <p class="services-desc line-height">
+          Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.
+        </p>
+      </div>
+
+      <div class="services-item ltr-effect float-item border mg-b-30">
+        <i class="fa fa-diamond fa-2x services-icon absolute"></i>
+        <h2 class="services-title capitalize mg-b-30">marketing</h2>
+        <p class="services-desc line-height">
+          Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.
+        </p>
+      </div>
+
+      <div class="services-item mrgn ltr-effect float-item border mg-b-30">
+        <i class="fa fa-pencil fa-2x services-icon absolute"></i>
+        <h2 class="services-title capitalize mg-b-30">awesome support</h2>
+        <p class="services-desc line-height">
+          Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.
+        </p>
+      </div>
+
+      <div class="services-item ltr-effect float-item border mg-b-30">
+        <i class="fa fa-flask fa-2x services-icon absolute"></i>
+        <h2 class="services-title capitalize mg-b-30">brand design</h2>
+        <p class="services-desc line-height">
+          Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.
+        </p>
+      </div>
+
+  </div>
+  </div>
+</div>
+
+<!-- Choose-us Section -->
+<div class="choose-us pdng-y border sec-bg">
+  <div class="container">
+    <div class="choose-us-content overflow-hidden">
+      <div class="choose-us-item float-left half-width">
+        <!-- Section Header (Title & line) -->
+        <div class="sec-header">
+          <h2 class="sec-title">why choose us</h2>
+          <span class="sec-line"></span>
+        </div>
+        <p class="choose-us-desc mg-b-25 line-height">
+          Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris. Ultrices sagittis orci a scelerisque purus.
+        </p>
+        <ul class="choose-us-options">
+          <li><i class="fa fa-check choose-us-icon b-radius mg-b-17" ></i>Quis varius quam quisque id diam vel quam elementum.</li>
+          <li><i class="fa fa-check choose-us-icon b-radius mg-b-17" ></i>Mauris augue neque gravida in fermentum.</li>
+          <li><i class="fa fa-check choose-us-icon b-radius mg-b-17" ></i>Orci phasellus egestas tellus rutrum.</li>
+          <li><i class="fa fa-check choose-us-icon b-radius mg-b-17" ></i>Nec feugiat nisl pretium fusce id velit ut tortor pretium.</li>
+        </ul>
+      </div>
+
+      <div class="choose-us-item float-left half-width">
+        <div class="image-container">
+          <img src="images/about/about1.webp" alt="services image" class="full-width full-height" />
+        </div>
+
+        <ul class="bullets-container centered">
+          <li class="choose-us-bullets b-radius active inline-block"></li>
+          <li class="choose-us-bullets b-radius inline-block"></li>
+          <li class="choose-us-bullets b-radius inline-block"></li>
+          <li class="choose-us-bullets b-radius inline-block"></li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Numbers Section -->
+<div class="numbers relative  bg-img">   <!-- No ( pdng-y) -->
+  <div class="overlay">
+    <div class="container">
+      <div class="numbers-content overflow-hidden">
+
+        <div class="numbers-item float-left centered qurtr-width">
+          <i class="fa fa-users fa-2x numbers-icon"></i>
+          <h2 class="numbers-counter mg-b-20">451</h2>
+          <p class="numbers-desc">Happy clients</p>
+        </div>
+
+        <div class="numbers-item float-left centered qurtr-width">
+          <i class="fa fa-trophy fa-2x numbers-icon"></i>
+          <h2 class="numbers-counter mg-b-20">12</h2>
+          <p class="numbers-desc">Awards won</p>
+        </div>
+
+        <div class="numbers-item float-left centered qurtr-width">
+          <i class="fa fa-coffee fa-2x numbers-icon"></i>
+          <h2 class="numbers-counter mg-b-20">154K</h2>
+          <p class="numbers-desc">Cups of Coffee</p>
+        </div>
+
+        <div class="numbers-item float-left centered qurtr-width">
+          <i class="fa fa-file fa-2x numbers-icon"></i>
+          <h2 class="numbers-counter mg-b-20">45</h2>
+          <p class="numbers-desc">Projects completed</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Prices Section -->
+<div class="prices pdng-y">
+  <!-- Section Header (Title & line) -->
+  <div class="sec-header">
+    <h2 class="sec-title">pricing table</h2>
+    <span class="sec-line"></span>
+  </div>
+
+  <div class="container">
+    <div class="prices-content overflow-hidden">
+
+      <div class="prices-item ttb-effect border float-item centered">
+        <span class="prices-title uppercase">basic plan</span>
+        <div class="prices-circle b-radius">
+          <h2 class="prices-dollar">&dollar;9</h2>
+          <span class="prices-month uppercase">/ month</span>
+        </div>
+        <ul class="prices-specs">
+          <li class="mg-b-15">1GB disk space</li>
+          <li class="mg-b-15">100 email account</li>
+          <li class="mg-b-15">24/24 support</li>
+        </ul>
+        <button class="prices-btn">purchese now</button>
+      </div>
+
+      <div class="prices-item ttb-effect  border float-item centered mrgn">
+        <span class="prices-title uppercase">silver plan</span>
+        <div class="prices-circle b-radius">
+          <h2 class="prices-dollar">&dollar;19</h2>
+          <span class="prices-month uppercase">/ month</span>
+        </div>
+        <ul class="prices-specs">
+          <li class="mg-b-15">1GB disk space</li>
+          <li class="mg-b-15">100 email account</li>
+          <li class="mg-b-15">24/24 support</li>
+        </ul>
+        <button class="prices-btn">purchese now</button>
+      </div>
+
+      <div class="prices-item ttb-effect border float-item centered">
+        <span class="prices-title uppercase">gold plan</span>
+        <div class="prices-circle b-radius">
+          <h2 class="prices-dollar">&dollar;39</h2>
+          <span class="prices-month uppercase">/ month</span>
+        </div>
+        <ul class="prices-specs">
+          <li class="mg-b-15">1GB disk space</li>
+          <li class="mg-b-15">100 email account</li>
+          <li class="mg-b-15">24/24 support</li>
+        </ul>
+        <button class="prices-btn">purchese now</button>
+      </div>
+
+    </div>
+    </div>
+</div>
+
+<!-- testimonial Section -->
+<div class="testimonial relative  bg-img"> <!-- No ( pdng-y) -->
+  <div class="overlay">
+    <div class="container">
+      <div class="testimonial-content overflow-hidden">
+
+        <div class="testimonial-item float-left half-width">
+          <div class="testimonial-item-header relative">
+            <img src="images/Testimonial/perso1.webp" alt="designer image"  class="absolute b-radius"/>
+            <h3 class="capitalize">john doe</h3>
+            <span class="uppercase">web designer</span>
+          </div>
+          <p class="testimonial-item-desc line-height">
+            Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris.
+          </p>
+        </div>
+
+        <div class="testimonial-item float-left half-width">
+          <div class="testimonial-item-header relative">
+            <img src="images/Testimonial/perso2.webp" alt="designer image" class="absolute b-radius" />
+            <h3 class="capitalize">john doe</h3>
+            <span class="uppercase">web designer</span>
+          </div>
+          <p class="testimonial-item-desc line-height">
+            Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris.
+          </p>
+        </div>
+            
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Team Section -->
+<div class="team pdng-y">
+  <!-- Section Header (Title & line) -->
+  <div class="sec-header">
+    <h2 class="sec-title">our team</h2>
+    <span class="sec-line"></span>
+  </div>
+  <div class="container">
+    <div class="team-content overflow-hidden">
+
+      <div class="team-item ttb-effect float-item centered">
+        <div class="team-item-image relative">
+          <img src="images/team/team1.webp" alt="Person image" class="full-width full-height"/>
+          <div class="overlay">
+              <a class="block" href="#"><i class="fa fa-facebook"></i></a>
+              <a class="block" href="#"><i class="fa fa-google-plus"></i></a>
+              <a class="block" href="#"><i class="fa fa-twitter"></i></a>
+          </div>
+        </div>
+        <h3 class="team-item-name capitalize">john doe</h3>
+        <span class="team-item-job uppercase">web designer</span>
+      </div>
+
+      <div class="team-item ttb-effect float-item centered mrgn">
+        <div class="team-item-image relative">
+          <img src="images/team/team2.webp" alt="Person image" class="full-width full-height"/>
+          <div class="overlay">
+              <a class="block" href="#"><i class="fa fa-facebook"></i></a>
+              <a class="block" href="#"><i class="fa fa-google-plus"></i></a>
+              <a class="block" href="#"><i class="fa fa-twitter"></i></a>
+          </div>
+        </div>
+        <h3 class="team-item-name capitalize">john doe</h3>
+        <span class="team-item-job uppercase">web designer</span>
+      </div>
+
+      <div class="team-item ttb-effect float-item centered">
+        <div class="team-item-image relative">
+          <img src="images/team/team3.webp" alt="Person image" class="full-width full-height"/>
+          <div class="overlay">
+              <a class="block" href="#"><i class="fa fa-facebook"></i></a>
+              <a class="block" href="#"><i class="fa fa-google-plus"></i></a>
+              <a class="block" href="#"><i class="fa fa-twitter"></i></a>
+          </div>
+        </div>
+        <h3 class="team-item-name capitalize">john doe</h3>
+        <span class="team-item-job uppercase">web designer</span>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<!-- Blog Section -->
+<div class="blog pdng-y sec-bg border">
+  <!-- Section Header (Title & line) -->
+  <div class="sec-header">
+    <h2 class="sec-title">recents news</h2>
+    <span class="sec-line"></span>
+  </div>
+  <div class="container">
+    <div class="blog-content overflow-hidden">
+
+      <div class="blog-item float-item">
+        <div class="blog-image">
+          <img src="images/blog/blog1.webp" alt="" class="full-width full-height"/>
+        </div>
+        <div class="blog-content-info">
+          <ul class="blog-image-info">
+            <li class="inline-block"><i class="fa fa-user"></i> john doe</li>
+            <li class="inline-block"><i class="fa fa fa-clock-o"></i> 18 Oct</li>
+            <li class="inline-block"><i class="fa fa fa-comments"></i> 57</li>
+          </ul>
+          <h2 class="blog-title">Molestie at elementum eu facilisis sed odio</h2>
+          <p class="blog-desc line-height">
+            Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed.
+            Nunc non blandit massa enim nec.
+          </p>
+          <a href="#" class="blog-link hover-opacity block">Read more</a>
+        </div>
+      </div>
+
+      <div class="blog-item float-item mrgn">
+        <div class="blog-image">
+          <img src="images/blog/blog2.webp" alt="" class="full-width full-height"/>
+        </div>
+        <div class="blog-content-info">
+          <ul class="blog-image-info">
+            <li class="inline-block"><i class="fa fa-user"></i> john doe</li>
+            <li class="inline-block"><i class="fa fa fa-clock-o"></i> 18 Oct</li>
+            <li class="inline-block"><i class="fa fa fa-comments"></i> 57</li>
+          </ul>
+          <h2 class="blog-title">Molestie at elementum eu facilisis sed odio</h2>
+          <p class="blog-desc line-height">
+            Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed.
+            Nunc non blandit massa enim nec.
+          </p>
+          <a href="#" class="blog-link hover-opacity block">Read more</a>
+        </div>
+      </div>
+      
+      <div class="blog-item float-item">
+        <div class="blog-image">
+          <img src="images/blog/blog3.webp" alt="" class="full-width full-height"/>
+        </div>
+        <div class="blog-content-info">
+          <ul class="blog-image-info">
+            <li class="inline-block"><i class="fa fa-user"></i> john doe</li>
+            <li class="inline-block"><i class="fa fa fa-clock-o"></i> 18 Oct</li>
+            <li class="inline-block"><i class="fa fa fa-comments"></i> 57</li>
+          </ul>
+          <h2 class="blog-title">Molestie at elementum eu facilisis sed odio</h2>
+          <p class="blog-desc line-height">
+            Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed.
+            Nunc non blandit massa enim nec.
+          </p>
+          <a href="#" class="blog-link hover-opacity block">Read more</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<div class="contact pdng-y">
+  <!-- Section Header (Title & line) -->
+  <div class="sec-header">
+    <h2 class="sec-title">get in touch</h2>
+    <span class="sec-line"></span>
+  </div>
+  <div class="container">
+    <div class="contact-contain overflow-hidden">
+
+      <div class="contact-item float-item centered">
+        <i class=" contact-icon fa fa-phone fa-2x"></i>
+        <h2 class="contact-title">Phone</h2>
+        <span class="contact-desc">512-421-3940</span>
+      </div>
+
+      <div class="contact-item float-item centered">
+        <i class=" contact-icon fa fa-envelope fa-2x"></i>
+        <h2 class="contact-title">Email</h2>
+        <span class="contact-desc">email@support.com</span>
+      </div>
+
+      <div class="contact-item float-item centered">
+        <i class=" contact-icon fa fa-map-marker fa-2x"></i>
+        <h2 class="contact-title">Address</h2>
+        <span class="contact-desc">1739 Bubby Drive</span>
+      </div>
+      
+    </div>
+
+    <form class="contact-form" action="#">
+      <input type="text" name="name" placeholder="Name" />
+      <input type="text" name="email" placeholder="Email" />
+      <input type="text" name="subject" placeholder="Subject" class="block" />
+      <textarea placeholder="Message" class="full-width"></textarea>
+    </form>
+    
+    <button class="btn btn-blue hover-opacity block">Send message</button>
+
+  </div>
+</div>
+
+<!-- Footer Section -->
+<div class="footer centered">
+
+  <div class="footer-logo">
+    <img src="images/logo-alt.webp" alt="footer logo" draggable="false"/>
+  </div>
+
+  <ul class="footer-socialmedia">
+    <li class="inline-block"><a href="#"class="hover-opacity"><i class="fa fa-facebook"></i></a></li>
+    <li class="inline-block"><a href="#"class="hover-opacity"><i class="fa fa-twitter"></i></a></li>
+    <li class="inline-block"><a href="#" class="hover-opacity"><i class="fa fa-google-plus"></i></a></li>
+    <li class="inline-block"><a href="#"class="hover-opacity"><i class="fa fa-instagram"></i></a></li>
+    <li class="inline-block"><a href="#"class="hover-opacity"><i class="fa fa-linkedin"></i></a></li>
+    <li class="inline-block"><a href="#"class="hover-opacity"><i class="fa fa-youtube"></i></a></li>
+  </ul>
+  <p class="footer-copyright uppercase">
+    copyright &copy; 2017. all rights reserved. designed by <a class="hover-opacity" href="#">colorlib</a>
+  </p>
+</div>
+
+</body>
+</html>

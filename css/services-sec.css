@@ -1,0 +1,19 @@
+.services-item {
+  padding: 44px 35px 60px 70px ;
+  position: realtive;
+}
+
+.services-icon {
+  color: var(--mainColor);
+  top: 45px;
+  left: 20px;
+}
+
+.services-desc {
+  color: var(--pColor);
+
+}
+
+.services-item:hover  .services-title {
+  color: var(--whiteColor);
+}

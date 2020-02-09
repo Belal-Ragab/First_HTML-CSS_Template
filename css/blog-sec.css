@@ -1,0 +1,30 @@
+.blog-content-info {
+  background: var(--whiteColor);
+  padding:  0 15px 40px ;
+}
+
+.blog-image-info {
+  padding: 12px 0 0 25px;
+}
+
+.blog-image-info li {
+  margin-right: 10px ;
+}
+
+.blog-image-info li i {
+  color: var(--mainColor);
+}
+
+.blog-title {
+  margin: 17px 0 ;
+}
+
+.blog-desc {
+  color: var(--pColor);
+  width: 90%;
+}
+
+.blog-link {
+  color: var(--mainColor);
+  margin-top: 15px;
+}

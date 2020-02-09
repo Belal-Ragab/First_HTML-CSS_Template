@@ -1,0 +1,27 @@
+.footer {
+  background: var(--footer-bgColor);
+  padding: 30px 0;
+}
+
+.footer-logo img {
+  margin:35px 0;
+}
+
+.footer-socialmedia i {
+  color: var(--whiteColor);
+  background: var(--mainColor);
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  margin: 0 10px 30px 0
+}
+
+.footer-copyright {
+  color: var(--pColor);
+  font-size: 14px;
+}
+
+.footer-copyright a {
+  color: var(--mainColor);
+}
+
